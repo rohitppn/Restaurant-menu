@@ -1,0 +1,71 @@
+
+main{
+  background: rgba(0, 0, 0, 0.76);
+}
+
+.container{
+  background-image: url(../images/img1.png);
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-size: cover;
+  opacity: 50%;
+  /* flex-shrink: 0; */
+}
+
+.menu-container .cards{
+  width: 1560px;
+  height: 30rem;
+  display: inline-block;
+  position: relative;
+  top: 10rem;
+  left: 25rem;
+  margin: 0 auto;
+  /* background-color: red; */
+  /* flex-shrink: 0; */
+  
+}
+
+
+.cards .card{
+  background-image: url(../images/rect.png);
+   width: 400px;
+   height: 200px;
+   background-size: cover;
+   display: inline-block;
+   vertical-align: middle;
+   margin: 2rem;
+   border-radius: 19.447px;
+   background-blend-mode: overlay, normal;
+   backdrop-filter: blur(13.184196472167969px);
+}
+
+.card img{
+  position: relative;
+  top: 1.5rem;
+  left: 1rem;
+  flex-shrink: 0;
+}
+
+.card .card-content{
+  position: absolute;
+  top: 1.5rem;
+  left: 10rem;
+  display: inline-block;
+  color: #fff;
+  flex-shrink: 0;
+
+}
+
+.card .card-content h2{
+  position: relative;
+  top: 1.5rem;
+  left: 12px;
+}
+
+.card .card-content p{
+  position: relative;
+  top: 28px;
+  left: 12px;
+  width: 190px;
+
+}
