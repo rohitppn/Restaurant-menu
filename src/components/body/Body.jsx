@@ -1,73 +1,18 @@
 import React from "react";
 import "./Body.css";
+import Carts from "./carts/Carts";
+import Data from "../body/carts/Data.json";
 
 const body = () => {
   return (
     <main>
       <div className="container">
         <div className="menu-container">
-          <div className="cards">
-            <div className="card">
-              <img src="./images/1.png" />
-              <div className="card-content">
-                <h2>Boiled Eggs</h2>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur. Odio elementum in
-                  neque cras eget est.
-                </p>
-              </div>
-            </div>
-            <div className="card">
-              <img src="./images/2.png" />
-              <div className="card-content">
-                <h2>Boiled Eggs</h2>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur. Odio elementum in
-                  neque cras eget est.
-                </p>
-              </div>
-            </div>
-            <div className="card">
-              <img src="./images/3.png" />
-              <div className="card-content">
-                <h2>Boiled Eggs</h2>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur. Odio elementum in
-                  neque cras eget est.
-                </p>
-              </div>
-            </div>
-            <div className="card">
-              <img src="./images/4.png" />
-              <div className="card-content">
-                <h2>Boiled Eggs</h2>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur. Odio elementum in
-                  neque cras eget est.
-                </p>
-              </div>
-            </div>
-            <div className="card">
-              <img src="./images/5.png" />
-              <div className="card-content">
-                <h2>Boiled Eggs</h2>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur. Odio elementum in
-                  neque cras eget est.
-                </p>
-              </div>
-            </div>
-            <div className="card">
-              <img src="./images/6.png" />
-              <div className="card-content">
-                <h2>Boiled Eggs</h2>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur. Odio elementum in
-                  neque cras eget est.
-                </p>
-              </div>
-            </div>
-          </div>
+          {Data.map((Menu) => {
+            return (
+              <Carts img={Menu.img} h1={Menu.h1} p={Menu.p} id={Menu.id} />
+            );
+          })}
         </div>
       </div>
     </main>

@@ -1,0 +1,38 @@
+[
+  {
+    "id": "1",
+    "img":"../images/1.png",
+    "h1": "Boyled Eggs",
+    "p": "Lorem ipsum dolor sit amet consectetur. Odio elementum in neque cras eget est."
+  },
+  {
+    "id": "2",
+    "img":"../images/2.png",
+    "h1": "Boyled ",
+    "p": "Lorem ipsum dolor sit amet consectetur. Odio elementum in neque cras eget est."
+  },
+  {
+    "id": "3",
+    "img":"../images/3.png",
+    "h1": " Eggs",
+    "p": "Lorem ipsum dolor sit amet consectetur. Odio elementum in neque cras eget est."
+  },
+  {
+    "id": "4",
+    "img":"../images/4.png",
+    "h1": "Boyled Eggs",
+    "p": "Lorem ipsum dolor sit amet consectetur. Odio elementum in neque cras eget est."
+  },
+  {
+    "id": "5",
+    "img":"../images/5.png",
+    "h1": "Boyled Eggs",
+    "p": "Lorem ipsum dolor sit amet consectetur. Odio elementum in neque cras eget est."
+  },
+  {
+    "id": "6",
+    "img":"../images/6.png",
+    "h1": "Boyled Eggs",
+    "p": "Lorem ipsum dolor sit amet consectetur. Odio elementum in neque cras eget est."
+  }
+]
